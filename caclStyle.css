@@ -1,61 +1,172 @@
+*{
 
-
-#screenCalc{
-
-    width: 210px;
-    height: 33px;
-    border: 1px solid black;
-    background-color: cornflowerblue;
-
-
+    margin: 0;
+    padding: 0;
 
 }
 
 .butoane{
 
-    margin: auto;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 40px;
+    font-size: 25px;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: white;
     color: white;
     background-color: black;
-    padding: 2px;
+
 }
 
-.symbols{
-    margin: auto;
-    width: 50px;
-    height: 50px;
+.plus{
+
+    width: 60px;
+    height: 40px;
+    font-size: 25px;
+    margin: 1px;
+    cursor: pointer;
+    background-color: #d76712;
+    border-radius: 3px;
+    border: white;
     color: white;
-    background-color: black;
+
 }
 
-#minus{
-    background-color: chartreuse;
-}
+.minus{
 
-#plus{
-    background-color: darkorange;
-}
-
-#delenie{
-    background-color: green;
-}
-
-#umnojenie{
-    background-color: deepskyblue;
-}
-
-
-
-#CE{
-    background-color: red;
-}
-
-#ravno{
-    margin: auto;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 40px;
+    font-size: 25px;
+    margin: 1px;
+    cursor: pointer;
+    background-color: #a516aa;
+    border-radius: 3px;
+    border: white;
     color: white;
-    background-color: black;
+
 }
+
+.inmultire{
+
+    width: 60px;
+    height: 40px;
+    font-size: 25px;
+    margin: 1px;
+    cursor: pointer;
+    background-color: #3da072;
+    border-radius: 3px;
+    border: white;
+    color: white;
+
+}
+
+.impartire{
+
+    width: 60px;
+    height: 40px;
+    font-size: 25px;
+    margin: 1px;
+    cursor: pointer;
+    background-color: #095f04;
+    border-radius: 3px;
+    border: white;
+    color: white;
+
+}
+
+.delete{
+
+    width: 60px;
+    height: 40px;
+    font-size: 25px;
+    margin: 1px;
+    cursor: pointer;
+    background-color: #f80303;
+    border-radius: 3px;
+    border: white;
+    color: white;
+
+}
+
+.textviz{
+
+    width: 252px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    background: #3a3ae8;
+    border-radius: 3px;
+    border: white;
+
+}
+
+.main{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+
+/*#screenCalc{*/
+
+/*    width: 210px;*/
+/*    height: 33px;*/
+/*    border: 1px solid black;*/
+/*    background-color: cornflowerblue;*/
+
+
+
+/*}*/
+
+/*.butoane{*/
+
+/*    margin: auto;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    color: white;*/
+/*    background-color: black;*/
+/*    padding: 2px;*/
+/*}*/
+
+/*.symbols{*/
+/*    margin: auto;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    color: white;*/
+/*    background-color: black;*/
+/*}*/
+
+/*#minus{*/
+/*    background-color: chartreuse;*/
+/*}*/
+
+/*#plus{*/
+/*    background-color: darkorange;*/
+/*}*/
+
+/*#delenie{*/
+/*    background-color: green;*/
+/*}*/
+
+/*#umnojenie{*/
+/*    background-color: deepskyblue;*/
+/*}*/
+
+
+
+/*#CE{*/
+/*    background-color: red;*/
+/*}*/
+
+/*#ravno{*/
+/*    margin: auto;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    color: white;*/
+/*    background-color: black;*/
+/*}*/
 
